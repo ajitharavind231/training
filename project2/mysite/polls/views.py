@@ -1,3 +1,4 @@
+from urllib import request
 from django.shortcuts import  render,get_object_or_404
 from django.http import HttpResponse,HttpResponseRedirect
 from django.template import loader
@@ -41,6 +42,8 @@ def index(request):
     }
     return HttpResponse(template.render(context, request))
 
-
+def test(request):
+    #return HttpResponse("working")
+    return render( request, 'home.html'),
 
 # Create your views here.
