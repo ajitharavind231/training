@@ -1,0 +1,4 @@
+[console_scripts]
+protontricks = protontricks.cli.main:cli
+protontricks-desktop-install = protontricks.cli.desktop_install:cli
+protontricks-launch = protontricks.cli.launch:cli
