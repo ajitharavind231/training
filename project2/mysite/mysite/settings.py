@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls',
+    'tt1.apps.Tt1Config',
 ]
 
 MIDDLEWARE = [
